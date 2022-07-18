@@ -5,6 +5,8 @@
 body{
   font-family: "Poppins", sans-serif;
   font-size: 14px;
+  width: 100vw;
+  overflow-x: hidden;
 }
 
 nav{
@@ -133,6 +135,7 @@ li a:hover{
 
 .projects{
   margin: 120px 90px;
+  overflow: hidden;
 }
 
 .categories{
@@ -142,6 +145,7 @@ li a:hover{
   text-align: center;
   opacity: 45%;
   margin-bottom: 55px;
+  overflow: hidden;
 }
 
 .category{
@@ -325,6 +329,7 @@ li a:hover{
   position: relative;
   color: white;
   padding: 60px 0;
+
 }
 
 .subscribe-button{

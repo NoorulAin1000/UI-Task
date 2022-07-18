@@ -28,12 +28,6 @@ nav{
   float: left;
 }
 
-.icon{
-  height: 14px;
-  width: 13px;
-  vertical-align: text-top;
-}
-
 .free-quote{
   float: right;
   width: 11%;
@@ -49,7 +43,7 @@ nav{
   width: 2%;
 }
 
-.websites-logos   > a > img {
+.websites-logos   > a > i {
   opacity: 30%
 }
 
@@ -163,7 +157,7 @@ li a:hover{
 }
 
 .category-detail{
-  margin: 40px 20px;
+  margin: 10px 10px;
   justify-content: left;
 }
 
@@ -174,7 +168,7 @@ li a:hover{
   opacity: 50%
 }
 .spacing{
-  padding-top: 100px;
+  padding-top: 0px;
 }
 
 .product-detail{
@@ -184,17 +178,34 @@ li a:hover{
 }
 
 .blue-bg{
-  position: relative;
   background: url("/home/dev/Desktop/UI/background/xn3.png") no-repeat;
   background-size:cover;
 }
 
-.vague{
-  position:relative;
-  background-color: #1b93d8;
-  opacity: 40%;
-  z-index: 1;
+.center{
+  text-align: center;
+}
 
+
+
+.vague{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('/home/dev/Desktop/UI/background/xn3.png');
+  background-size: cover;
+  position: relative;
+}
+
+
+.vague::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(64, 136, 218, 0.308);
 }
 
 .testimony{
@@ -217,7 +228,6 @@ li a:hover{
 .hidden-black{
   background: rgb(46, 43, 43);
   display: none;
-  text-align: center;
 }
 
 .rating{
@@ -279,4 +289,65 @@ li a:hover{
   height: 5px;
   background-color: #1b93d8;
   margin: 6px 0;
+}
+
+.offer-button{
+  background-color: black;
+  border: 1px solid  white;
+  border-radius: 3px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.quote-button{
+  background-color: white;
+  border: none;
+  border-radius: 3px;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.footer{
+  background-color: rgb(48, 46, 46);
+  width: 100%;
+  position: relative;
+  color: white;
+  padding: 60px 0;
+}
+
+.subscribe-button{
+  border-radius: 15px;
+}
+
+.footer-icons{
+  color:#FFFFFF;
+  background-color: black;
+}
+
+.display-block{
+  display: block;
+}
+
+.display{
+  display: none;
+}
+
+.padding{
+  padding: 10px;
+}
+
+.blue{
+  color: #1b8cd8
 }

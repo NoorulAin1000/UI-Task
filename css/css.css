@@ -28,7 +28,7 @@ nav {
 
 @media (max-width: 1000px) {
   .projects{
-    margin: 120px 30px;
+    margin: 20px 30px;
   }
   .category{
     margin: 5px 5px;
@@ -45,9 +45,15 @@ nav {
   display: block;
 }
 
-.spacing{
-  padding-top: 0px;
+
+.display-block{
+  display: none;
 }
+
+.display{
+  display: block;
+}
+
 
 }
 
